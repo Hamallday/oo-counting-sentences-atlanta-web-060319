@@ -19,8 +19,9 @@ class String
   def count_sentences
 
     complex_string = self.split('.', '!', '?')
-    complex_string.count 
     binding.pry
+    complex_string.count
+
 
   end
 end
