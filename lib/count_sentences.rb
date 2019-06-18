@@ -18,8 +18,8 @@ class String
 
   def count_sentences
 
-    new_array = self.split('.', '!', '?')
-    new_array.count 
+    complex_string = self.split('.', '!', '?')
+    complex_string.count 
     binding.pry
 
   end
