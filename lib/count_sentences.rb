@@ -4,11 +4,11 @@ class String
 
   def sentence?
     if self.end_with? == (".")
-      binding.pry 
+    return true 
+  else 
+    return false 
+  end 
 
-
-
-  end
 
   def question?
 
